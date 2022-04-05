@@ -2,7 +2,7 @@
 
 # Desinformação do consumidor prod. eletrônicos 2
 
-Com o grande avanço tecnológico que vem ocorrendo nas ultimas décadas é quase impossível não possuir um objeto que contempla as ultimas tecnologias. Entretanto o mundo do hardware ainda é uma bolha muito reclusa e pequena, com seu vocabulário robusto e a grande quantidade de informação sobre a área espalhada pela internet, a tarefa de encontrar o aparelho tecnológico ideal se torna quase impossível. É preciso a criação de uma plataforma capaz de resolver o problema de desinformação no consumo de eletrônicos
+Com o grande avanço tecnológico que vem ocorrendo nas ultimas décadas é quase impossível não possuir um objeto que contempla as ultimas tecnologias. Entretanto o mundo do hardware ainda é uma bolha muito reclusa e pequena, com seu vocabulário robusto e a grande quantidade de informação sobre a área espalhada pela internet, a tarefa de encontrar o aparelho tecnológico ideal se torna quase impossível. É preciso a criação de uma plataforma capaz de resolver o problema de desinformação no consumo de eletrônicos.
 
 ## Alunos integrantes da equipe
 
