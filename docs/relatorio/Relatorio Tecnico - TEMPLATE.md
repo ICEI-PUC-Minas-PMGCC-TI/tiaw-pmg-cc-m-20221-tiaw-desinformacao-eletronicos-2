@@ -1,24 +1,18 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Desinformação De Produtos Eletrônicos - 2
 
 `CURSO` 
 
 Ciência da Computação
 
 ## Participantes
-
-Augusto Scardua
-Pedro Miranda
-Rikerson Antonio
-Leonardo Silva
-
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
 > Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+> - Augusto Scardua
+> - Pedro Miranda
+> - Rikerson Antonio
+> - Leonardo Silva
 
 # Estrutura do Documento
 
@@ -59,7 +53,7 @@ Leonardo Silva
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Na area de hardware de eletronicos há dificuldade de compreender as qualidades dos produtos, e, por consequencia a aplicabilidade destes.
 
 > Nesse momento você deve apresentar o problema que a sua aplicação deve
 > resolver. No entanto, não é a hora de comentar sobre a aplicação.
@@ -79,7 +73,7 @@ Leonardo Silva
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Guiar o consumidor na escolha e compreensao do hardware de forma facil e simples
 
 > Aqui você deve descrever os objetivos do trabalho indicando que o
 > objetivo geral é desenvolver um software para solucionar o problema
