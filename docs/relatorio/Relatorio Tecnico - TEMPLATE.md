@@ -53,7 +53,7 @@ Ciência da Computação
 
 ## Problema
 
-Na area de hardware de eletronicos há dificuldade de compreender as qualidades dos produtos, e, por consequencia a aplicabilidade destes. Isso causa mal uso de dinheiro em muitos ocasiões, seja por falta ou excesso de capacidade de processamento, por custo de energia, ou por outros diversos motivos.
+Na area de hardware de eletronicos há dificuldade de compreender as qualidades dos produtos, e, por consequencia a aplicabilidade destes. Isso causa mal uso de dinheiro em muitas ocasiões, seja por falta ou excesso de capacidade de processamento, por custo de energia, ou por outros diversos motivos.
 
 > Nesse momento você deve apresentar o problema que a sua aplicação deve
 > resolver. No entanto, não é a hora de comentar sobre a aplicação.
@@ -73,7 +73,7 @@ Na area de hardware de eletronicos há dificuldade de compreender as qualidades 
 
 ## Objetivos
 
-Guiar o consumidor na escolha e compreensao do hardware de forma facil e simples
+A meta deste projeto é resolver o problema da incapacidade de identificar o hardware adequado para indivíduos de duas formas, a primeira através de indicação de diferentes qualidades do produto e a segunda disponibilizando as informações necessárias para discernir a utilidade do produto.
 
 > Aqui você deve descrever os objetivos do trabalho indicando que o
 > objetivo geral é desenvolver um software para solucionar o problema
