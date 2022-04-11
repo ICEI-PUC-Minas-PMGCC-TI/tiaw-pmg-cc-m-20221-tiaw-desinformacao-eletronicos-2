@@ -7,7 +7,7 @@ Com o grande avanço tecnológico que vem ocorrendo nas ultimas décadas é quas
 ## Alunos integrantes da equipe
 
 * Pedro Miranda Rodrigues
-* Nome completo do aluno 2
+* Augusto Scaruda Oliveira
 * Nome completo do aluno 3
 * Nome completo do aluno 4
 
