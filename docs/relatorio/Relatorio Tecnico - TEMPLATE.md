@@ -104,6 +104,8 @@ A meta deste projeto é resolver o problema da incapacidade de identificar o har
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
+![Exemplo de Persona](imaages/../images/Persona1.jpg)
+
 > Descreva quem serão as pessoas que usarão a sua aplicação indicando os
 > diferentes perfis. O objetivo aqui não é definir quem serão os
 > clientes ou quais serão os papéis dos usuários na aplicação. A ideia
