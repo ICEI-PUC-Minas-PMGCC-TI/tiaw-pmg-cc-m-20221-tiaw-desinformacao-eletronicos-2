@@ -86,7 +86,7 @@ A meta deste projeto é resolver o problema da incapacidade de identificar o har
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
+É comum a situação de ter que ajudar um familiar, normalmente mais velho, a escolher um computador ou outro equipamento eletrônico e isso reflete o problema comum anteriormente elaborado assim como no questionário que aplicamos. Resolver este problema pode poupar dinheiro e tempo na vida das pessoas, dois recursos escassos e inestimáveis em muitos casos.
 
 > Descreva a importância ou a motivação para trabalhar com esta aplicação
 > que você escolheu. Indique as razões pelas quais você escolheu seus
