@@ -5,11 +5,14 @@
 
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Ciência da Computação
 
 ## Participantes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Augusto Scardua
+Pedro Miranda
+Rikerson Antonio
+Leonardo Silva
 
 > Inclua a lista dos membros da equipe com seus nomes completos.
 >
