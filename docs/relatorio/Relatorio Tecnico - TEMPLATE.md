@@ -17,8 +17,10 @@ Leonardo Silva
 > Inclua a lista dos membros da equipe com seus nomes completos.
 >
 > Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+> - Pedro Miranda Rodrigues
+> - Augusto Scardua
+> - Rikerson Antonio
+> - Leonardo Silva
 
 # Estrutura do Documento
 
