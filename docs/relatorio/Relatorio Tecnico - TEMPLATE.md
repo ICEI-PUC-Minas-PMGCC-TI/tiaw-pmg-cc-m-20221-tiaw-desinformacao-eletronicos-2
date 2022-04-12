@@ -102,9 +102,11 @@ A meta deste projeto é resolver o problema da incapacidade de identificar o har
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O público alvo é composto de indivíduos leigos em tecnologia que querem comprar produtos eletrônicos sem precisar de conhecimento técnico e daqueles que querem adiquirir tal conhecimento para uso próprio.
 
 ![Exemplo de Persona](imaages/../images/Persona1.jpg)
+
+A persona acima demonstra um perfil muito comum, pessoas de idade entre 30 e 50 anos que precisam adquirir um eletrônico, seja para trabalho ou uso privado, mas têm dificuldade de escolher um produto adequado.
 
 > Descreva quem serão as pessoas que usarão a sua aplicação indicando os
 > diferentes perfis. O objetivo aqui não é definir quem serão os
@@ -161,10 +163,10 @@ A meta deste projeto é resolver o problema da incapacidade de identificar o har
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|EU COMO... `PERSONA`    |     QUERO/PRECISO ... `FUNCIONALIDADE`    |             PARA ... `MOTIVO/VALOR`                  |
+|------------------------|-------------------------------------------|------------------------------------------------------|
+|Leigo em tecnologia     | Comprar um eletrônico                     | Exercer funções administrativas no meu negócio       |
+|Entusiasta de tecnologia|Aprender sobre as qualidades de componentes| Ser capaz de fazer compras bem informadas            |
 
 > Apresente aqui as histórias de usuário que são relevantes para o
 > projeto de sua solução. As Histórias de Usuário consistem em uma
