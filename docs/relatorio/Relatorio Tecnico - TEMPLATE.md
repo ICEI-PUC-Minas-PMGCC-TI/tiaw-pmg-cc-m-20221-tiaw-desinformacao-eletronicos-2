@@ -1,34 +1,4 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@AugustoSZer0 
-ICEI-PUC-Minas-PMGCC-TI
-/
-tiaw-pmg-cc-m-20221-tiaw-desinformacao-eletronicos-2
-Public
-generated from rommelcarneiro/tiaw-template-2022
-Code
-Issues
-Pull requests
-1
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-tiaw-pmg-cc-m-20221-tiaw-desinformacao-eletronicos-2/docs/relatorio/Relatorio Tecnico - TEMPLATE.md
-@HansJung22
-HansJung22 Update Relatorio Tecnico - TEMPLATE.md
-Latest commit 471ac7a 6 hours ago
- History
- 3 contributors
-@HansJung22@AugustoSZer0@github-classroom
-476 lines (375 sloc)  20.4 KB
+
    
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
