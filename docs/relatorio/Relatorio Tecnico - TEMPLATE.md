@@ -1,24 +1,50 @@
-# Informações do Projeto  
-
-Desinformação do consumidor produtos eletrônicos 2
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
  
+@AugustoSZer0 
+ICEI-PUC-Minas-PMGCC-TI
+/
+tiaw-pmg-cc-m-20221-tiaw-desinformacao-eletronicos-2
+Public
+generated from rommelcarneiro/tiaw-template-2022
+Code
+Issues
+Pull requests
+1
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+tiaw-pmg-cc-m-20221-tiaw-desinformacao-eletronicos-2/docs/relatorio/Relatorio Tecnico - TEMPLATE.md
+@HansJung22
+HansJung22 Update Relatorio Tecnico - TEMPLATE.md
+Latest commit 471ac7a 6 hours ago
+ History
+ 3 contributors
+@HansJung22@AugustoSZer0@github-classroom
+476 lines (375 sloc)  20.4 KB
+   
+# Informações do Projeto
+`TÍTULO DO PROJETO`  
+
+Desinformação De Produtos Eletrônicos - 2
+
+`CURSO` 
+
 Ciência da Computação
 
 ## Participantes
-
-Augusto Scardua
-Pedro Miranda
-Rikerson Antonio
-Leonardo Silva
-
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
 > Os membros do grupo são: 
-> - Pedro Miranda Rodrigues
 > - Augusto Scardua
+> - Pedro Miranda
 > - Rikerson Antonio
 > - Leonardo Silva
-
 # Estrutura do Documento
 
 - [Informações do Projeto](#informações-do-projeto)
@@ -58,16 +84,26 @@ Leonardo Silva
 
 ## Problema
 
-Com o grande avanço tecnológico que vem ocorrendo nas ultimas décadas é quase impossível não possuir um objeto que contempla as ultimas tecnologias. Entretanto o mundo do hardware ainda é uma bolha muito reclusa e pequena, com seu vocabulário robusto e a grande quantidade de informação sobre a área espalhada pela internet, a tarefa de encontrar o aparelho tecnológico ideal se torna quase impossível. É preciso a criação de uma plataforma capaz de resolver o problema de desinformação no consumo de eletrônicos
+Na area de hardware de eletronicos há dificuldade de compreender as qualidades dos produtos, e, por consequencia a aplicabilidade destes. Isso causa mal uso de dinheiro em muitas ocasiões, seja por falta ou excesso de capacidade de processamento, por custo de energia, ou por outros diversos motivos.
 
+> Nesse momento você deve apresentar o problema que a sua aplicação deve
+> resolver. No entanto, não é a hora de comentar sobre a aplicação.
+> Descreva também o contexto em que essa aplicação será usada, se
+> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
+> fato existir, pois ainda não é a hora de apresentar requisitos
+> detalhados ou projetos.
+>
+> Nesse momento, o grupo pode optar por fazer uso
+> de ferramentas como Design Thinking, que permite um olhar de ponta a
+> ponta para o problema.
+>
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
 > - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
 > - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A meta deste projeto é resolver o problema da incapacidade de identificar o hardware adequado para indivíduos de duas formas, a primeira através de indicação de diferentes qualidades do produto e a segunda disponibilizando as informações necessárias para discernir a utilidade do produto.
 
 > Aqui você deve descrever os objetivos do trabalho indicando que o
 > objetivo geral é desenvolver um software para solucionar o problema
@@ -77,10 +113,9 @@ Com o grande avanço tecnológico que vem ocorrendo nas ultimas décadas é quas
 > 
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
+É comum a situação de ter que ajudar um familiar, normalmente mais velho, a escolher um computador ou outro equipamento eletrônico e isso reflete o problema comum anteriormente elaborado assim como no questionário que aplicamos. Resolver este problema pode poupar dinheiro e tempo na vida das pessoas, dois recursos escassos e inestimáveis em muitos casos.
 
 > Descreva a importância ou a motivação para trabalhar com esta aplicação
 > que você escolheu. Indique as razões pelas quais você escolheu seus
@@ -93,10 +128,13 @@ Com o grande avanço tecnológico que vem ocorrendo nas ultimas décadas é quas
 >
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O público alvo é composto de indivíduos leigos em tecnologia que querem comprar produtos eletrônicos sem precisar de conhecimento técnico e daqueles que querem adiquirir tal conhecimento para uso próprio.
+
+![Exemplo de Persona](imaages/../images/Persona1.jpg)
+
+A persona acima demonstra um perfil muito comum, pessoas de idade entre 30 e 50 anos que precisam adquirir um eletrônico, seja para trabalho ou uso privado, mas têm dificuldade de escolher um produto adequado.
 
 > Descreva quem serão as pessoas que usarão a sua aplicação indicando os
 > diferentes perfis. O objetivo aqui não é definir quem serão os
@@ -114,13 +152,11 @@ Com o grande avanço tecnológico que vem ocorrendo nas ultimas décadas é quas
 > - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
  
 # Especificações do Projeto
-
 ......  COLOQUE AQUI O SEU TEXTO ......
 
 > Apresente uma visão geral do que será abordado nesta parte do
 > documento, enumerando as técnicas e/ou ferramentas utilizadas para
 > realizar a especificações do projeto
-
 ## Personas e Mapas de Empatia
 
 ......  COLOQUE AQUI O SEU TEXTO ......
@@ -148,15 +184,14 @@ Com o grande avanço tecnológico que vem ocorrendo nas ultimas décadas é quas
 > 
 > Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
 
-
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|EU COMO... `PERSONA`      |     QUERO/PRECISO ... `FUNCIONALIDADE`      |             PARA ... `MOTIVO/VALOR`            |
+|--------------------------|---------------------------------------------|------------------------------------------------|
+| Leigo em tecnologia      | Comprar um eletrônico                       | Exercer funções administrativas no meu negócio |
+| Entusiasta de tecnologia | Aprender sobre as qualidades de componentes | Ser capaz de fazer compras bem informadas      |
 
 > Apresente aqui as histórias de usuário que são relevantes para o
 > projeto de sua solução. As Histórias de Usuário consistem em uma
@@ -168,17 +203,16 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
 > - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|ID    | Descrição do Requisito                                                | Prioridade |
+|------|-----------------------------------------------------------------------|------------|
+|RF-001| Fornecer informação acessível e util sobre a qualidade de eletrônicos | ALTA       | 
+|RF-002| Fornecer informação sobre aspectos técnicos de eletrônicos            | MÉDIA      |
 
 
 ### Requisitos não Funcionais
@@ -209,7 +243,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 > - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
 > - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
-
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
@@ -227,7 +260,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
 > - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
-
 # Projeto de Interface
 
 ......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
@@ -236,7 +268,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > foram elaboradas de forma a atender os requisitos funcionais, não
 > funcionais e histórias de usuário abordados nas [Especificações do
 > Projeto](#especificações-do-projeto).
-
 ## User Flow
 
 ......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
@@ -254,7 +285,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > **Exemplo**:
 > 
 > ![Exemplo de UserFlow](images/userflow.jpg)
-
 
 ## Wireframes
 
@@ -275,7 +305,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > 
 > ![Exemplo de Wireframe](images/wireframe-example.png)
 
-
 # Metodologia
 
 ......  COLOQUE AQUI O SEU TEXTO ......
@@ -295,7 +324,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
 > - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
 > - [Tutorial Slack](https://slack.com/intl/en-br/)
-
 ## Divisão de Papéis
 
 ......  COLOQUE AQUI O SEU TEXTO ......
@@ -305,7 +333,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
 > - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-
 
 ## Ferramentas
 
@@ -340,7 +367,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > - [Crie seu Site com o HostGator](https://www.hostgator.com.br/como-publicar-seu-site)
 > - [GoDady](https://br.godaddy.com/how-to)
 > - [GitHub Pages](https://pages.github.com/)
-
 ## Controle de Versão
 
 ......  COLOQUE AQUI O SEU TEXTO ......
@@ -375,7 +401,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > **Exemplo - GitHub Feature Branch Workflow**:
 >
 > ![Exemplo de Wireframe](images/Github-Workflow.png)
-
 # **############## SPRINT 1 ACABA AQUI #############**
 
 
@@ -399,7 +424,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
 > item textualmente comentando e complementando o que está apresentado
 > nas imagens.
-
 ## Arquitetura da solução
 
 ......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
@@ -411,7 +435,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > 
 > ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
 
-
 # Avaliação da Aplicação
 
 ......  COLOQUE AQUI O SEU TEXTO ......
@@ -419,7 +442,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > Apresente os cenários de testes utilizados na realização dos testes da
 > sua aplicação. Escolha cenários de testes que demonstrem os requisitos
 > sendo satisfeitos.
-
 ## Plano de Testes
 
 ......  COLOQUE AQUI O SEU TEXTO ......
@@ -433,7 +455,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
 > - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
 > -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-
 ## Ferramentas de Testes (Opcional)
 
 ......  COLOQUE AQUI O SEU TEXTO ......
@@ -443,7 +464,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > **Links Úteis**:
 > - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
 > - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
-
 ## Registros de Testes
 
 ......  COLOQUE AQUI O SEU TEXTO ......
@@ -452,7 +472,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > fracos identificados na solução. Comente como o grupo pretende atacar
 > esses pontos nas próximas iterações. Apresente as falhas detectadas e
 > as melhorias geradas a partir dos resultados obtidos nos testes.
-
 
 # Referências
 
@@ -464,3 +483,15 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > **Links Úteis**:
 > - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
 > - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
