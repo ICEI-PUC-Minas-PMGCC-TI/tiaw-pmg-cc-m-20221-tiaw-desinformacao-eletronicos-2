@@ -12,7 +12,7 @@ Ciência da Computação
 ## Participantes
 > Os membros do grupo são: 
 > - Augusto Scardua
-> - Pedro Miranda
+> - Lucas Herick
 > - Rikerson Antonio
 > - Leonardo Silva
 # Estrutura do Documento
