@@ -232,7 +232,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
+A pagina deve conter uma página inicial, com uma sessão de produtos novos e produtos em alta e além disso deve conter outras duas.
+A primeira será de produtos classificados por uma qualidade (durabilidade, future-proofing, capacidade de processamento etc).
+A segunda será de produtos classificados por marca e modelo, modelos devem conter também suas notas nas qualidades especificadas.
+Toda página deve ter um link com informações e fontes sobre critérios utilizados para determinar as qualidades dos produtos, com elaboração a fundo destes critérios.
+Toda página deve conter um menu de navegação no cabeçalho de levas às outras páginas citadas, e também uma de contados e informações.
 
 > Apresente as principais interfaces da solução. Discuta como 
 > foram elaboradas de forma a atender os requisitos funcionais, não
