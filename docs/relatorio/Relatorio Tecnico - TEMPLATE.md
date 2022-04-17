@@ -54,7 +54,7 @@ Ciência da Computação
 
 ## Problema
 
-Na area de hardware de eletronicos há dificuldade de compreender as qualidades dos produtos, e, por consequencia a aplicabilidade destes. Isso causa mal uso de dinheiro em muitas ocasiões, seja por falta ou excesso de capacidade de processamento, por custo de energia, ou por outros diversos motivos.
+Na área de hardware de eletrônicos há dificuldade de compreender as qualidades dos produtos, e, por consequência a aplicabilidade destes. Isso causa mal uso de dinheiro em muitas ocasiões, seja por falta ou excesso de capacidade de processamento, por custo de energia, ou por outros diversos motivos. 
 
 > Nesse momento você deve apresentar o problema que a sua aplicação deve
 > resolver. No entanto, não é a hora de comentar sobre a aplicação.
@@ -100,7 +100,7 @@ A meta deste projeto é resolver o problema da incapacidade de identificar o har
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 ## Público-Alvo
 
-O público alvo é composto de indivíduos leigos em tecnologia que querem comprar produtos eletrônicos sem precisar de conhecimento técnico e daqueles que querem adiquirir tal conhecimento para uso próprio.
+O público alvo é composto de indivíduos leigos em tecnologia que querem comprar produtos eletrônicos sem precisar de conhecimento técnico e daqueles que querem adquirir tal conhecimento para uso próprio. 
 
 ![Exemplo de Persona](imaages/../images/Persona1.jpg)
 
