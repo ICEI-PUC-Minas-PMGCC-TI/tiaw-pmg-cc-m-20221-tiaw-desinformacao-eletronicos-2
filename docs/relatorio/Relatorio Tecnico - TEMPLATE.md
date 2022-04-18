@@ -277,7 +277,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Inicialmente utilizamos o Design Thinking para entender o problema de maneira mais profunda e as pessoas/entidades que são relevantes, através das personas adiquirimos o perfil dos usuários e com o brainstorm divisamos ideias que poderiam ser úteis no segundo estágio, para ter mais agilidade no processo de comunicação utilizamos o Miro.
+Aplicando user flow e wireframes entendemos as necessidades do site e sua estrutura básica, para criar ambos foi usado o mockplus.
+Todo o processo foi feito no Github, compartilhando possíveis modificações do projeto e aprovando aquelas que foram mais apropriadas.
 
 > Nesta parte do documento, você deve apresentar a metodologia 
 > adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
@@ -306,10 +308,14 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Ferramentas
 
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
+Discord: Um ambiente já utilizado por todos se demonstra prático, a qualidade das chamadas de voz para reuniões também é um atrativo.
+Miro: A plataforma apresenta um serviço altamente útil e ágil, ideal para compartilhar as idéias e concretiza-las.
+GitHub: Extremamente útil para o controle de versão do produto a plataforma oferece ótimas funções para trabalhos em grupo.
+
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
+|Comunicação| Discord                |https://https://discord.com/|
 |Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
 |Repositório de código | GitHub | https://github.com/XXXXXXX | 
 |Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
@@ -339,7 +345,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > - [GitHub Pages](https://pages.github.com/)
 ## Controle de Versão
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Os contribuidores do projeto usaram a função de pull request para ter pontos de vista diferentes aplicados e possívelmente fazer um commit sobre o contéudo quando as ideias se concretizaram.
 
 > Discuta como a configuração do projeto foi feita na ferramenta de
 > versionamento escolhida. Exponha como a gerência de tags, merges,
