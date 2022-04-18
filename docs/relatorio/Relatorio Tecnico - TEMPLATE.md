@@ -54,7 +54,7 @@ Ciência da Computação
 
 ## Problema
 
-Na area de hardware de eletronicos há dificuldade de compreender as qualidades dos produtos, e, por consequencia a aplicabilidade destes. Isso causa mal uso de dinheiro em muitas ocasiões, seja por falta ou excesso de capacidade de processamento, por custo de energia, ou por outros diversos motivos.
+Na área de hardware de eletrônicos há dificuldade de compreender as qualidades dos produtos, e, por consequência a aplicabilidade destes. Isso causa mal uso de dinheiro em muitas ocasiões, seja por falta ou excesso de capacidade de processamento, por custo de energia, ou por outros diversos motivos.
 
 > Nesse momento você deve apresentar o problema que a sua aplicação deve
 > resolver. No entanto, não é a hora de comentar sobre a aplicação.
@@ -100,7 +100,7 @@ A meta deste projeto é resolver o problema da incapacidade de identificar o har
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 ## Público-Alvo
 
-O público alvo é composto de indivíduos leigos em tecnologia que querem comprar produtos eletrônicos sem precisar de conhecimento técnico e daqueles que querem adiquirir tal conhecimento para uso próprio.
+O público alvo é composto de indivíduos leigos em tecnologia que querem comprar produtos eletrônicos sem precisar de conhecimento técnico e daqueles que querem adquirir tal conhecimento para uso próprio. 
 
 ![Exemplo de Persona](imaages/../images/Persona1.jpg)
 
@@ -232,7 +232,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
+A pagina deve conter uma página inicial, com uma sessão de produtos novos e produtos em alta e além disso deve conter outras duas.
+A primeira será de produtos classificados por uma qualidade (durabilidade, future-proofing, capacidade de processamento etc).
+A segunda será de produtos classificados por marca e modelo, modelos devem conter também suas notas nas qualidades especificadas.
+Toda página deve ter um link com informações e fontes sobre critérios utilizados para determinar as qualidades dos produtos, com elaboração a fundo destes critérios.
+Toda página deve conter um menu de navegação no cabeçalho de levas às outras páginas citadas, e também uma de contados e informações.
 
 > Apresente as principais interfaces da solução. Discuta como 
 > foram elaboradas de forma a atender os requisitos funcionais, não
@@ -240,7 +244,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > Projeto](#especificações-do-projeto).
 ## User Flow
 
-......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
+![Exemplo de UserFlow](images/Userflow.jpeg)
 
 > Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
 > mapear todo fluxo de telas do site ou app. Essa técnica funciona
@@ -258,7 +262,22 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Wireframes
 
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
+Página inicial
+
+![Exemplo de UserFlow](images/Wireframe1.jpeg)
+
+Página de produtos por modelo
+
+![Exemplo de UserFlow](images/Wireframe2.jpeg)
+
+Página de produtos por qualidade
+
+![Exemplo de UserFlow](images/Wireframe3.jpeg)
+
+Página de informações
+
+![Exemplo de UserFlow](images/Wireframe4.jpeg)
+
 
 > Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
 > estrutura de um site web e seu relacionamentos entre suas
@@ -277,7 +296,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Inicialmente utilizamos o Design Thinking para entender o problema de maneira mais profunda e as pessoas/entidades que são relevantes, através das personas adiquirimos o perfil dos usuários e com o brainstorm divisamos ideias que poderiam ser úteis no segundo estágio, para ter mais agilidade no processo de comunicação utilizamos o Miro.
+Aplicando user flow e wireframes entendemos as necessidades do site e sua estrutura básica, para criar ambos foi usado o mockplus.
+Todo o processo foi feito no Github, compartilhando possíveis modificações do projeto e aprovando aquelas que foram mais apropriadas.
 
 > Nesta parte do documento, você deve apresentar a metodologia 
 > adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
@@ -296,7 +317,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > - [Tutorial Slack](https://slack.com/intl/en-br/)
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Scrum master: Rikerson
+Product Owner: Augusto
+Time: Rikerson, Augusto, Leonardo
 
 > Apresente a divisão de papéis e tarefas entre os membros do grupo.
 >
@@ -306,10 +329,13 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Ferramentas
 
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
+Discord: Um ambiente já utilizado por todos se demonstra prático, a qualidade das chamadas de voz para reuniões também é um atrativo.
+Miro: A plataforma apresenta um serviço altamente útil e ágil, ideal para compartilhar as idéias e concretiza-las.
+GitHub: Extremamente útil para o controle de versão do produto a plataforma oferece ótimas funções para trabalhos em grupo.
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
+|Comunicação| Discord                |https://https://discord.com/|
 |Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
 |Repositório de código | GitHub | https://github.com/XXXXXXX | 
 |Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
@@ -339,7 +365,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > - [GitHub Pages](https://pages.github.com/)
 ## Controle de Versão
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Os contribuidores do projeto usaram a função de pull request para ter pontos de vista diferentes aplicados e possívelmente fazer um commit sobre o contéudo quando as ideias se concretizaram
 
 > Discuta como a configuração do projeto foi feita na ferramenta de
 > versionamento escolhida. Exponha como a gerência de tags, merges,
