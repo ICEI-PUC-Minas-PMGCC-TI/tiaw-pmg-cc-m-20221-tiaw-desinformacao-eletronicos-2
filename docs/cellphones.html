@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TechSabe</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function LoadProdInit()
+        {
+            fetch("product.json")
+            .then(response => response.json())
+            .then( data => {let x = 1;
+                            for(x = 1; x < 13; x = x+1)
+                            {
+                                var n = "#n";
+                                var m = "#m";
+                                var p = "#p";
+                                var a = "#a";
+
+                                n += x;
+                                m += x;
+                                p += x;
+                                a += x;
+
+
+                                console.log(n);
+                                let prod = x-1;
+
+                                document.querySelector(n).innerText = data.Celulares[prod].nome;
+                                document.querySelector(m).innerText = data.Celulares[prod].marca;
+                                document.querySelector(p).innerText = data.Celulares[prod].preço_medio;
+                                document.querySelector(a).innerText = data.Celulares[prod].ano;
+
+                            }
+                           })
+        }
+    </script>
+</head>
+
+<body onload="LoadProdInit()">
+
+    <header>
+        <div class="grid-container1">
+
+            <!--Logo-->
+            <div class="grid-item">
+
+                <a href="index.html"><img src="/imgs/tech.jpg" alt="logo"></a>
+
+            </div>
+
+            <!--Navbar-->
+            <div class="grid-item">
+
+                <div class="grid-container2" style="font-size: 150%;">
+
+                    <div class="grid-item">
+                        <a href="/index.html">Home</a>
+                    </div>
+
+                    <div class="grid-item">
+                        <a href="cellphones.html">Celulares</a>
+                    </div>
+
+                    <div class="grid-item">
+                        <a href="computers.html">Notebooks</a>
+                    </div>
+
+                    <div class="grid-item">
+                        <a href="Pesquisa.html">Aprenda</a>
+                    </div>
+
+                    <div class="grid-item">
+                        <a href="us.html">Sobre</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+
+        <div class="grid-container6">
+
+            <div class="grid-item">
+                 <!--botao a ser implementado com database-->
+                 <input id="check01" type="checkbox" name="menu" />
+                 <label for="check01">Ordenar por</label>
+                 <ul class="submenu">
+                     <li><a href="#">Preço</a></li>
+                     <li><a href="#">Qualidade</a></li>
+                     <li><a href="#">Marca</a></li>
+                 </ul>
+            </div>
+
+            <div class="grid-item2">
+                <!--botao a ser implementado com database-->
+                <input id="check02" type="checkbox" name="menu" />
+                <label for="check02">Tipo de produto</label>
+                <ul class="submenu">
+                    <li><a href="#">First Item</a></li>
+                    <li><a href="#">Second Item</a></li>
+                    <li><a href="#">Third Item</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="grid-container7">
+
+            <div class="grid-item">
+                <img src="/imgs/LG_G4.jpg" alt="produto">
+                <a href="#" id = "n1">NOME DO PRODUTO</a>
+                <p>Marca:</p>
+                <p id="m1"></p>
+                <p>Preço:</p>
+                <p id="p1"></p>
+                <p>Ano:</p>
+                <p id="a1"></p>
+            </div>
+
+            <div class="grid-item">
+                <img src="/imgs/LG_G4.jpg" alt="produto">
+                <a href="#" id = "n2">NOME DO PRODUTO</a>
+                <p>Marca:</p>
+                <p id="m2"></p>
+                <p>Preço:</p>
+                <p id="p2"></p>
+                <p>Ano:</p>
+                <p id="a2"></p>
+            </div>
+
+
+            <div class="grid-item">
+                <img src="/imgs/LG_G4.jpg" alt="produto">
+                <a href="#" id = "n3">NOME DO PRODUTO</a>
+                <p>Marca:</p>
+                <p id="m3"></p>
+                <p>Preço:</p>
+                <p id="p3"></p>
+                <p>Ano:</p>
+                <p id="a3"></p>
+            </div>
+
+
+            <div class="grid-item">
+                <img src="/imgs/LG_G4.jpg" alt="produto">
+                <a href="#" id = "n4">NOME DO PRODUTO</a>
+                <p>Marca:</p>
+                <p id="m4"></p>
+                <p>Preço:</p>
+                <p id="p4"></p>
+                <p>Ano:</p>
+                <p id="a4"></p>
+            </div>
+
+
+        </div>
+
+        <div class="grid-container8">
+
+            <div class="grid-item">
+                <img src="/imgs/LG_G4.jpg" alt="produto">
+                <a href="#" id = "n5">NOME DO PRODUTO</a>
+                <p>Marca:</p>
+                <p id="m5"></p>
+                <p>Preço:</p>
+                <p id="p5"></p>
+                <p>Ano:</p>
+                <p id="a5"></p>
+            </div>
+
+            <div class="grid-item">
+                <img src="/imgs/LG_G4.jpg" alt="produto">
+                <a href="#" id = "n6">NOME DO PRODUTO</a>
+                <p>Marca:</p>
+                <p id="m6"></p>
+                <p>Preço:</p>
+                <p id="p6"></p>
+                <p>Ano:</p>
+                <p id="a6"></p>
+            </div>
+
+            <div class="grid-item">
+                <img src="/imgs/LG_G4.jpg" alt="produto">
+                <a href="#" id = "n7">NOME DO PRODUTO</a>
+                <p>Marca:</p>
+                <p id="m7"></p>
+                <p>Preço:</p>
+                <p id="p7"></p>
+                <p>Ano:</p>
+                <p id="a7"></p>
+            </div>
+
+            <div class="grid-item">
+                <img src="/imgs/LG_G4.jpg" alt="produto">
+                <a href="#" id = "n8">NOME DO PRODUTO</a>
+                <p>Marca:</p>
+                <p id="m8"></p>
+                <p>Preço:</p>
+                <p id="p8"></p>
+                <p>Ano:</p>
+                <p id="a8"></p>
+            </div>
+
+        </div>
+
+        <div class="grid-container9">
+
+            <div class="grid-item">
+                <img src="/imgs/LG_G4.jpg" alt="produto">
+                <a href="#" id = "n9">NOME DO PRODUTO</a>
+                <p>Marca:</p>
+                <p id="m9"></p>
+                <p>Preço:</p>
+                <p id="p9"></p>
+                <p>Ano:</p>
+                <p id="a9"></p>
+            </div>
+
+            <div class="grid-item">
+                <img src="/imgs/LG_G4.jpg" alt="produto">
+                <a href="#" id = "n10">NOME DO PRODUTO</a>
+                <p>Marca:</p>
+                <p id="m10"></p>
+                <p>Preço:</p>
+                <p id="p10"></p>
+                <p>Ano:</p>
+                <p id="a10"></p>
+            </div>
+
+            <div class="grid-item">
+                <img src="/imgs/LG_G4.jpg" alt="produto">
+                <a href="#" id = "n11">NOME DO PRODUTO</a>
+                <p>Marca:</p>
+                <p id="m11"></p>
+                <p>Preço:</p>
+                <p id="p11"></p>
+                <p>Ano:</p>
+                <p id="a11"></p>
+            </div>
+
+            <div class="grid-item">
+                <img src="/imgs/LG_G4.jpg" alt="produto">
+                <a href="#" id = "n12">NOME DO PRODUTO</a>
+                <p>Marca:</p>
+                <p id="m12"></p>
+                <p>Preço:</p>
+                <p id="p12"></p>
+                <p>Ano:</p>
+                <p id="a12"></p>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div class="grid-container3">
+
+            <div class="grid-item">
+
+                Copyright
+
+            </div>
+
+        </div>
+
+    </footer>
+</body>
+
+</html>

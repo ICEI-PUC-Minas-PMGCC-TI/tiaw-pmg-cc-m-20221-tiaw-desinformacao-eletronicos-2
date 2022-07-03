@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TechSabe</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function LoadProdInit()
+        {
+            fetch("product.json")
+            .then(response => response.json())
+            .then( data => {let x = 1;
+                            for(x = 1; x < 13; x = x+1)
+                            {
+                                var n = "#n";
+                                var m = "#m";
+                                var p = "#p";
+                                var a = "#a";
+                                var pr = "#pr";
+                                var r = "#r";
+
+
+                                n += x;
+                                m += x;
+                                p += x;
+                                a += x;
+                                pr += x;
+                                r += x;
+
+
+                                console.log(n);
+                                let prod = x-1;
+
+                                document.querySelector(n).innerText = data.Computadores[prod].nome;
+                                document.querySelector(m).innerText = data.Computadores[prod].marca;
+                                document.querySelector(p).innerText = data.Computadores[prod].preço_medio;
+                                document.querySelector(a).innerText = data.Computadores[prod].armazenamento;
+                                document.querySelector(pr).innerText = data.Computadores[prod].processador;
+                                document.querySelector(r).innerText = data.Computadores[prod].ram;
+
+                            }
+                           })
+        }
+    </script>
+</head>
+
+<body onload="LoadProdInit()">
+
+    <header>
+        <div class="grid-container1">
+
+            <!--Logo-->
+            <div class="grid-item">
+
+                <a href="index.html"><img src="/imgs/tech.jpg" alt="logo"></a>
+
+            </div>
+
+            <!--Navbar-->
+            <div class="grid-item">
+
+                <div class="grid-container2" style="font-size: 150%;">
+
+                    <div class="grid-item">
+                        <a href="index.html">Home</a>
+                    </div>
+
+                    <div class="grid-item">
+                        <a href="cellphones.html">Celulares</a>
+                    </div>
+
+                    <div class="grid-item">
+                        <a href="computers.html">Notebooks</a>
+                    </div>
+
+                    <div class="grid-item">
+                        <a href="Pesquisa.html">Aprenda</a>
+                    </div>
+
+                    <div class="grid-item">
+                        <a href="us.html">Sobre</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+
+        <div class="grid-container6">
+
+            <div class="grid-item">
+                 <!--botao a ser implementado com database-->
+                 <input id="check01" type="checkbox" name="menu" />
+                 <label for="check01">Ordenar por</label>
+                 <ul class="submenu">
+                     <li><a href="#">Preço</a></li>
+                     <li><a href="#">Qualidade</a></li>
+                     <li><a href="#">Marca</a></li>
+                 </ul>
+            </div>
+
+            <div class="grid-item2">
+                <!--botao a ser implementado com database-->
+                <input id="check02" type="checkbox" name="menu" />
+                <label for="check02">Tipo de produto</label>
+                <ul class="submenu">
+                    <li><a href="#">First Item</a></li>
+                    <li><a href="#">Second Item</a></li>
+                    <li><a href="#">Third Item</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="grid-container7">
+
+            <div class="grid-item">
+                <img src="imgs/lenovoUltrafino.jpg" alt="produto">
+                <a href="https://www.americanas.com.br/produto/4296134971?pfm_carac=laptop&pfm_index=1&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=61b204a2d9fd6edeec018521&buyboxToken=smartbuybox-acom-v2-9ca5c6dd-794a-4e01-a3e2-1727a0e3ccb7-2022-07-03%2017:10:27-0300" id = "n1">NOME DO PRODUTO</a>
+                <p>Marca:</p>
+                <p id="m1"></p>
+                <p>Preço:</p>
+                <p id="p1"></p>
+                <p>Armazenamento:</p>
+                <p id="a1"></p>
+                <p>Processador:</p>
+                <p id="pr1"></p>
+                <p>Ram:</p>
+                <p id="r1"></p>
+            </div>
+
+            <div class="grid-item">
+                <img src="imgs/lenovoIdeapad31.jpg" alt="produto">
+                <a href="https://www.americanas.com.br/produto/4199005924?pfm_carac=laptop&pfm_index=2&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=62bf4e0d2376eb9c723acc51&buyboxToken=smartbuybox-acom-v2-52a7b76a-e100-441c-b59a-558623762cf1-2022-07-03%2017:10:27-0300" id = "n2">NOME DO PRODUTO</a>
+                <p>Marca:</p>
+                <p id="m2"></p>
+                <p>Preço:</p>
+                <p id="p2"></p>
+                <p>Armazenamento:</p>
+                <p id="a2"></p>
+                <p>Processador:</p>
+                <p id="pr2"></p>
+                <p>Ram:</p>
+                <p id="r2"></p>
+            </div>
+
+
+            <div class="grid-item">
+                <img src="imgs/DellInspiron.jpg" alt="produto">
+                <a href="https://www.americanas.com.br/produto/4752825814?pfm_carac=laptop&pfm_index=3&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6241a66987c00289c2c29919&buyboxToken=smartbuybox-acom-v2-b469d674-5b7c-49ee-bf4b-133a0822cbbe-2022-07-03%2017:10:27-0300" id = "n3">NOME DO PRODUTO</a>
+                <p>Marca:</p>
+                <p id="m3"></p>
+                <p>Preço:</p>
+                <p id="p3"></p>
+                <p>Armazenamento:</p>
+                <p id="a3"></p>
+                <p>Processador:</p>
+                <p id="pr3"></p>
+                <p>Ram:</p>
+                <p id="r3"></p>
+            </div>
+
+
+            <div class="grid-item">
+                <img src="imgs/Samsung i5.jpg" alt="produto">
+                <a href="https://www.americanas.com.br/produto/4100901560?pfm_carac=laptop&pfm_index=4&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=61cafe24d9fd6edeecc360cf&buyboxToken=smartbuybox-acom-v2-8d4b7334-65fb-4322-b390-a6b08903bae1-2022-07-03%2017:10:27-0300" id = "n4">NOME DO PRODUTO</a>
+                <p>Marca:</p>
+                <p id="m4"></p>
+                <p>Preço:</p>
+                <p id="p4"></p>
+                <p>Armazenamento:</p>
+                <p id="a4"></p>
+                <p>Processador:</p>
+                <p id="pr4"></p>
+                <p>Ram:</p>
+                <p id="r4"></p>
+            </div>
+
+
+        </div>
+
+        <div class="grid-container8">
+
+            <div class="grid-item">
+                <img src="imgs/Acer Aspire 3.jpg" alt="produto">
+                <a href="https://www.americanas.com.br/produto/4651637881?pfm_carac=laptop&pfm_index=5&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=61fa9968d9fd6edeec489c89&buyboxToken=smartbuybox-acom-v2-7c83a803-ce95-4712-9aab-bde3582bc387-2022-07-03%2017:08:58-0300" id = "n5">NOME DO PRODUTO</a>
+                <p>Marca:</p>
+                <p id="m5"></p>
+                <p>Preço:</p>
+                <p id="p5"></p>
+                <p>Armazenamento:</p>
+                <p id="a5"></p>
+                <p>Processador:</p>
+                <p id="pr5"></p>
+                <p>Ram:</p>
+                <p id="r5"></p>
+            </div>
+
+            <div class="grid-item">
+                <img src="imgs/Acer Aspire 5.png" alt="produto">
+                <a href="https://www.americanas.com.br/produto/4651637814?pfm_carac=laptop&pfm_index=6&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=61fa998dd9fd6edeec490011&buyboxToken=smartbuybox-acom-v2-0b2b4373-c537-48ab-8a75-e3d116faec04-2022-07-03%2017:10:27-0300" id = "n6">NOME DO PRODUTO</a>
+                <p>Marca:</p>
+                <p id="m6"></p>
+                <p>Preço:</p>
+                <p id="p6"></p>
+                <p>Armazenamento:</p>
+                <p id="a6"></p>
+                <p>Processador:</p>
+                <p id="pr6"></p>
+                <p>Ram:</p>
+                <p id="r6"></p>
+            </div>
+
+            <div class="grid-item">
+                <img src="imgs/Multilaser PC310.jpg" alt="produto">
+                <a href="https://www.americanas.com.br/produto/2529722273?pfm_carac=laptop&pfm_index=7&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=5ffefd1f0c07044266fac244&buyboxToken=smartbuybox-acom-v2-eb8d09cd-1366-40f8-bbb5-773d6d255a9b-2022-07-03%2017:10:27-0300" id = "n7">NOME DO PRODUTO</a>
+                <p>Marca:</p>
+                <p id="m7"></p>
+                <p>Preço:</p>
+                <p id="p7"></p>
+                <p>Armazenamento:</p>
+                <p id="a7"></p>
+                <p>Processador:</p>
+                <p id="pr7"></p>
+                <p>Ram:</p>
+                <p id="r7"></p>
+            </div>
+
+            <div class="grid-item">
+                <img src="imgs/AsusCeleron.jpg" alt="produto">
+                <a href="https://www.americanas.com.br/produto/4471806238?pfm_carac=laptop&pfm_index=9&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=61cc8af3d9fd6edeec4e9a56&buyboxToken=smartbuybox-acom-v2-4c847824-9bec-4650-aacb-2b2c39edc008-2022-07-03%2017:10:27-0300" id = "n8">NOME DO PRODUTO</a>
+                <p>Marca:</p>
+                <p id="m8"></p>
+                <p>Preço:</p>
+                <p id="p8"></p>
+                <p>Armazenamento:</p>
+                <p id="a8"></p>
+                <p>Processador:</p>
+                <p id="pr8"></p>
+                <p>Ram:</p>
+                <p id="r8"></p>
+            </div>
+
+        </div>
+
+        <div class="grid-container9">
+
+            <div class="grid-item">
+                <img src="imgs/Compaq 420.png" alt="produto">
+                <a href="https://www.americanas.com.br/produto/4199005625?pfm_carac=laptop&pfm_index=10&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6193f13ed9fd6edeeca2f0e0&buyboxToken=smartbuybox-acom-v2-d0781f5c-b42d-4b57-98dc-e1639a727973-2022-07-03%2017%3A10%3A27-0300&cor=CINZA&voltagem=BIVOLT" id = "n9">NOME DO PRODUTO</a>
+                <p>Marca:</p>
+                <p id="m9"></p>
+                <p>Preço:</p>
+                <p id="p9"></p>
+                <p>Armazenamento:</p>
+                <p id="a9"></p>
+                <p>Processador:</p>
+                <p id="pr9"></p>
+                <p>Ram:</p>
+                <p id="r9"></p>
+            </div>
+
+            <div class="grid-item">
+                <img src="imgs/Acer Nitro 5.jpg" alt="produto">
+                <a href="https://www.americanas.com.br/produto/4638496771?pfm_carac=laptop&pfm_index=11&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=61fa9995d9fd6edeec491464&buyboxToken=smartbuybox-acom-v2-1ee237ce-25a6-449b-8176-124169f81eb9-2022-07-03%2017:10:27-0300" id = "n10">NOME DO PRODUTO</a>
+                <p>Marca:</p>
+                <p id="m10"></p>
+                <p>Preço:</p>
+                <p id="p10"></p>
+                <p>Armazenamento:</p>
+                <p id="a10"></p>
+                <p>Processador:</p>
+                <p id="pr10"></p>
+                <p>Ram:</p>
+                <p id="r10"></p>
+            </div>
+
+            <div class="grid-item">
+                <img src="imgs/Ultra UB230.jpg" alt="produto">
+                <a href="https://www.americanas.com.br/produto/4202016772?pfm_carac=laptop&pfm_index=12&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6195022fd9fd6edeec9e124f&buyboxToken=smartbuybox-acom-v2-ac48cc18-1643-4513-ac70-fce66fe12b07-2022-07-03%2017:10:27-0300" id = "n11">NOME DO PRODUTO</a>
+                <p>Marca:</p>
+                <p id="m11"></p>
+                <p>Preço:</p>
+                <p id="p11"></p>
+                <p>Armazenamento:</p>
+                <p id="a11"></p>
+                <p>Processador:</p>
+                <p id="pr11"></p>
+                <p>Ram:</p>
+                <p id="r11"></p>
+            </div>
+
+            <div class="grid-item">
+                <img src="imgs/Positivo Motion Red.jpg" alt="produto">
+                <a href="https://www.americanas.com.br/produto/4879645941?pfm_carac=laptop&pfm_index=15&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=6283e950234ca7e6fd11c820&buyboxToken=smartbuybox-acom-v2-39653af5-c616-4244-9393-85e8d0c1950b-2022-07-03%2017%3A10%3A27-0300" id = "n12">NOME DO PRODUTO</a>
+                <p>Marca:</p>
+                <p id="m12"></p>
+                <p>Preço:</p>
+                <p id="p12"></p>
+                <p>Armazenamento:</p>
+                <p id="a12"></p>
+                <p>Processador:</p>
+                <p id="pr12"></p>
+                <p>Ram:</p>
+                <p id="r12"></p>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div class="grid-container3">
+
+            <div class="grid-item">
+
+                Copyright
+
+            </div>
+
+        </div>
+
+    </footer>
+</body>
+
+</html>

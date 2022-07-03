@@ -1,0 +1,324 @@
+{
+  "Celulares": [
+    {
+      "código": 1,
+      "nome": "Samsung Galaxy A53 5G",
+      "marca": "Samsung",
+      "preço_medio": "R$2186,00",
+      "ano": "2022"
+    },
+    {
+      "código": 2,
+      "nome": "Samsung Galaxy A33 5G",
+      "marca": "Samsung",
+      "preço_medio": "R$2124,00",
+      "ano": "2022"
+    },
+    {
+      "código": 3,
+      "nome": "Oukitel WP16",
+      "marca": "Oukitel",
+      "preço_medio": "R$2038,00",
+      "ano": "2021"
+    },
+    {
+      "código": 4,
+      "nome": "UMIDIGI Bison X10 Pro",
+      "marca": "UMIDIGI",
+      "preço_medio": "R$2400,00",
+      "ano": "2021"
+    },
+    {
+      "código": 5,
+      "nome": "Xiaomi 11T",
+      "marca": "Xiaomi",
+      "preço_medio": "R$2390,00",
+      "ano": "2021"
+    },
+    {
+      "código": 6,
+      "nome": "Redmi Note 11 Pro Plus 5G",
+      "marca": "Xiaomi",
+      "preço_medio": "R$2112,00",
+      "ano": "2021"
+    },
+    {
+      "código": 7,
+      "nome": "Samsung Galaxy S22 Ultra 5G",
+      "marca": "Samsung",
+      "preço_medio": "R$8549,00",
+      "ano": "2022"
+    },
+    {
+      "código": 8,
+      "nome": "Samsung Galaxy S22 Plus 5G",
+      "marca": "Samsung",
+      "preço_medio": "R$6299,00",
+      "ano": "2022"
+    },
+    {
+      "código": 9,
+      "nome": "Samsung Galaxy S22 5G",
+      "marca": "Samsung",
+      "preço_medio": "R$5399,00",
+      "ano": "2022"
+    },
+    {
+      "código": 10,
+      "nome": "Samsung Galaxy S21 Ultra",
+      "marca": "Samsung",
+      "preço_medio": "R$6363,00",
+      "ano": "2021"
+    },
+    {
+      "código": 1,
+      "nome": "Samsung Galaxy A23",
+      "marca": "Samsung",
+      "preço_medio": "R$1439,00",
+      "ano": "2022"
+    },
+    {
+      "código": 2,
+      "nome": "Samsung Galaxy A13",
+      "marca": "Samsung",
+      "preço_medio": "R$1349,00",
+      "ano": "2022"
+    },
+    {
+      "código": 3,
+      "nome": "Samsung Galaxy M22",
+      "marca": "Samsung",
+      "preço_medio": "R$1398,00",
+      "ano": "2021"
+    },
+    {
+      "código": 4,
+      "nome": "Samsung Galaxy M32",
+      "marca": "Samsung",
+      "preço_medio": "R$1439,00",
+      "ano": "2021"
+    },
+    {
+      "código": 5,
+      "nome": "Redmi 10A",
+      "marca": "Xiaomi",
+      "preço_medio": "R$1289,00",
+      "ano": "2022"
+    },
+    {
+      "código": 6,
+      "nome": "Redmi 10C",
+      "marca": "Xiaomi",
+      "preço_medio": "R$1066,00",
+      "ano": "2022"
+    },
+    {
+      "código": 7,
+      "nome": "Poco M4 pro",
+      "marca": "Xiaomi",
+      "preço_medio": "R$1491,00",
+      "ano": "2022"
+    },
+    {
+      "código": 8,
+      "nome": "Redmi Note 11",
+      "marca": "Xiaomi",
+      "preço_medio": "R$1199,00",
+      "ano": "2022"
+    },
+    {
+      "código": 9,
+      "nome": "Realme 9i",
+      "marca": "Realme",
+      "preço_medio": "R$1453,00",
+      "ano": "2022"
+    },
+    {
+      "código": 10,
+      "nome": "Motorola Moto G31",
+      "marca": "Motorola",
+      "preço_medio": "R$1399,00",
+      "ano": "2021"
+    },
+    {
+      "código": 1,
+      "nome": "A03",
+      "marca": "Samsung",
+      "preço_medio": "R$899,00",
+      "ano": "2022"
+    },
+    {
+      "código": 2,
+      "nome": "A03 Core",
+      "marca": "Samsung",
+      "preço_medio": "R$629,00",
+      "ano": "2021"
+    },
+    {
+      "código": 3,
+      "nome": "A03s",
+      "marca": "Samsung",
+      "preço_medio": "R$899,00",
+      "ano": "2021"
+    },
+    {
+      "código": 4,
+      "nome": "Xiaomi Mi A2 Lite",
+      "marca": "Xiaomi",
+      "preço_medio": "R$997,00",
+      "ano": "2018"
+    },
+    {
+      "código": 5,
+      "nome": "Xiaomi Redmi 6",
+      "marca": "Xiaomi",
+      "preço_medio": "R$955,00",
+      "ano": "2018"
+    },
+    {
+      "código": 6,
+      "nome": "Xiaomi Redmi 6A",
+      "marca": "Xiaomi",
+      "preço_medio": "R$679,00",
+      "ano": "2018"
+    },
+    {
+      "código": 7,
+      "nome": "Samsung Galaxy M12",
+      "marca": "Samsung",
+      "preço_medio": "R$1056,00",
+      "ano": "2021"
+    },
+    {
+      "código": 8,
+      "nome": "Positivo Twist 4 Pro",
+      "marca": "Positivo",
+      "preço_medio": "R$537,00",
+      "ano": "2021"
+    },
+    {
+      "código": 9,
+      "nome": "Nokia C20",
+      "marca": "Nokia",
+      "preço_medio": "R$595,00",
+      "ano": "2021"
+    },
+    {
+      "código": 10,
+      "nome": "Motorola Moto E7 Power",
+      "marca": "Motorola",
+      "preço_medio": "R$742,00",
+      "ano": "2021"
+    }
+  ],
+  "Computadores": [
+    {
+      "código": 1,
+      "nome": "Lenovo Ultrafino",
+      "marca": "Lenovo",
+      "preço_medio": "R$3210,60",
+      "armazenamento": "SSD",
+      "processador": "Ryzen 5",
+      "ram": "8gb"
+    },
+    {
+      "código": 2,
+      "nome": "Lenovo Ideapad 3i",
+      "marca": "Lenovo",
+      "preço_medio": "R$2098,90",
+      "armazenamento": "SSD",
+      "processador": "Intel Celeron",
+      "ram": "4gb"
+    },
+    {
+      "código": 3,
+      "nome": "Dell Inspiron",
+      "marca": "Dell",
+      "preço_medio": "R$4099,00",
+      "armazenamento": "SSD",
+      "processador": "Intel Core i5",
+      "ram": "8gb"
+    },
+    {
+      "código": 4,
+      "nome": "Samsung",
+      "marca": "Samsung",
+      "preço_medio": "R$3699,0",
+      "armazenamento": "SSD",
+      "processador": "Intel Core i5",
+      "ram": "8gb"
+    },
+    {
+      "código": 5,
+      "nome": "Acer Aspire 3",
+      "marca": "Acer",
+      "preço_medio": "R$3199,99",
+      "armazenamento": "SSD",
+      "processador": "Intel Core i3",
+      "ram": "8gb"
+    },
+    {
+      "código": 6,
+      "nome": "Acer Aspire 5",
+      "marca": "Acer",
+      "preço_medio": "R$3499,00",
+      "armazenamento": "SSD",
+      "processador": "Intel Core i5",
+      "ram": "8gb"
+    },
+    {
+      "código": 7,
+      "nome": "Multilaser PC310",
+      "marca": "Multilaser",
+      "preço_medio": "R$1208,9",
+      "armazenamento": "HD",
+      "processador": "Intel Pentium",
+      "ram": "4gb"
+    },
+    {
+      "código": 8,
+      "nome": "Asus",
+      "marca": "Asus",
+      "preço_medio": "R$1999,99",
+      "armazenamento": "HD",
+      "processador": "Intel Celeron",
+      "ram": "4gb"
+    },
+    {
+      "código": 9,
+      "nome": "Compaq 420",
+      "marca": "Compaq",
+      "preço_medio": "R$1629,00",
+      "armazenamento": "SSD",
+      "processador": "Intel Pentium",
+      "ram": "4gb"
+    },
+    {
+      "código": 10,
+      "nome": "Acer Nitro 5",
+      "marca": "Acer",
+      "preço_medio": "R$4999,99",
+      "armazenamento": "SSD",
+      "processador": "Intel Core i5",
+      "ram": "8gb"
+    },
+    {
+      "código": 11,
+      "nome": "Ultra UB230",
+      "marca": "Ultra",
+      "preço_medio": "R$1589,99",
+      "armazenamento": "SSD",
+      "processador": "Intel Celeron",
+      "ram": "4gb"
+    },
+    {
+      "código": 12,
+      "nome": "Positivo Motion Red",
+      "marca": "Positivo",
+      "preço_medio": "R$1590,80",
+      "armazenamento": "Hd",
+      "processador": "Intel Atom",
+      "ram": "4gb"
+    }
+  ]
+}
